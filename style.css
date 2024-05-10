@@ -211,12 +211,31 @@ main{
         letter-spacing: 0;
         line-height: 50px;
     }
+        
     #home .home-row h1 br{
-        display: none;
+        /* display: none; */
     }    
     #home .home-row p{
         font-size: 20px;
         font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #home{
+        padding: 5px;
+    }
+    #home .home-row h1{
+        font-size: 35px;
+        letter-spacing: 0;
+        line-height: 50px;
+        margin-top: 250px;
+        margin-left: 30px;
+    }
+    #home .home-row p{
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 30px;
     }
 }
 /* ==============Home End===================================== */
@@ -709,7 +728,7 @@ main{
         padding: 50px 15px;
     }
     #services .service-row{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
 }
