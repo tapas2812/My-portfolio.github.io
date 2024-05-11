@@ -39,3 +39,19 @@ window.addEventListener('scroll',function(){
         }
     });
 });
+
+// Get Responce on Whatsapp
+function whatsapp(){
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var subject = document.getElementById('subject').value;
+    var msg = document.getElementById('msg').value;
+
+    var whatsappurl="https://wa.me/917053660689?text="
+    + "Name : " + name +"%0a"
+    + "Email : " + email +"%0a"
+    + "Subject : " + subject +"%0a"
+    + "Message : " + msg;
+
+    window.open(whatsappurl,"_blank").focus();
+}
