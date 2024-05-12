@@ -802,6 +802,13 @@ main{
     padding: 30px;
 }
 
+#contact .contact-row .contact-right h4{
+    font-size: 20px;
+    color: var(--sideBGColor);
+    font-weight: 600;
+    text-align: center;
+}
+
 
 #contact .contact-row .contact-right form input, textarea{
     display: block;
