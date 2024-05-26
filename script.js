@@ -51,7 +51,7 @@ function whatsapp(){
     + "Name : " + name +"%0a"
     + "Email : " + email +"%0a"
     + "Subject : " + subject +"%0a"
-    + "Message : " + msg;
+    + "Message : " + msg + "%0a%0a";
 
     window.open(whatsappurl,"_blank").focus();
 }
